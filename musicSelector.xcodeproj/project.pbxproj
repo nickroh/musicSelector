@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD23887B2BDA1FBA00CB320A /* MusicSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD23887A2BDA1FBA00CB320A /* MusicSources.swift */; };
+		CD23887D2BDA22FB00CB320A /* SelectMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD23887C2BDA22FB00CB320A /* SelectMusic.swift */; };
+		CD23887F2BDA739500CB320A /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD23887E2BDA739500CB320A /* PlayerModel.swift */; };
+		CDA04C1F2BDB892F00E5E9EF /* MusicWithFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA04C1E2BDB892F00E5E9EF /* MusicWithFile.swift */; };
 		CDF9A0CF2BD67EC0001EC8DC /* musicSelectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF9A0CE2BD67EC0001EC8DC /* musicSelectorApp.swift */; };
 		CDF9A0D12BD67EC0001EC8DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF9A0D02BD67EC0001EC8DC /* ContentView.swift */; };
 		CDF9A0D32BD67EC1001EC8DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF9A0D22BD67EC1001EC8DC /* Assets.xcassets */; };
 		CDF9A0D72BD67EC1001EC8DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF9A0D62BD67EC1001EC8DC /* Preview Assets.xcassets */; };
+		CDF9A0DE2BD68105001EC8DC /* rangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF9A0DD2BD68105001EC8DC /* rangeSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD23887A2BDA1FBA00CB320A /* MusicSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSources.swift; sourceTree = "<group>"; };
+		CD23887C2BDA22FB00CB320A /* SelectMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMusic.swift; sourceTree = "<group>"; };
+		CD23887E2BDA739500CB320A /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		CDA04C1E2BDB892F00E5E9EF /* MusicWithFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicWithFile.swift; sourceTree = "<group>"; };
 		CDF9A0CB2BD67EC0001EC8DC /* musicSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF9A0CE2BD67EC0001EC8DC /* musicSelectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicSelectorApp.swift; sourceTree = "<group>"; };
 		CDF9A0D02BD67EC0001EC8DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CDF9A0D22BD67EC1001EC8DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDF9A0D42BD67EC1001EC8DC /* musicSelector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = musicSelector.entitlements; sourceTree = "<group>"; };
 		CDF9A0D62BD67EC1001EC8DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDF9A0DD2BD68105001EC8DC /* rangeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rangeSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +62,13 @@
 		CDF9A0CD2BD67EC0001EC8DC /* musicSelector */ = {
 			isa = PBXGroup;
 			children = (
+				CDA04C1E2BDB892F00E5E9EF /* MusicWithFile.swift */,
 				CDF9A0CE2BD67EC0001EC8DC /* musicSelectorApp.swift */,
 				CDF9A0D02BD67EC0001EC8DC /* ContentView.swift */,
+				CD23887C2BDA22FB00CB320A /* SelectMusic.swift */,
+				CDF9A0DD2BD68105001EC8DC /* rangeSlider.swift */,
+				CD23887A2BDA1FBA00CB320A /* MusicSources.swift */,
+				CD23887E2BDA739500CB320A /* PlayerModel.swift */,
 				CDF9A0D22BD67EC1001EC8DC /* Assets.xcassets */,
 				CDF9A0D42BD67EC1001EC8DC /* musicSelector.entitlements */,
 				CDF9A0D52BD67EC1001EC8DC /* Preview Content */,
@@ -139,8 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD23887F2BDA739500CB320A /* PlayerModel.swift in Sources */,
 				CDF9A0D12BD67EC0001EC8DC /* ContentView.swift in Sources */,
+				CD23887D2BDA22FB00CB320A /* SelectMusic.swift in Sources */,
 				CDF9A0CF2BD67EC0001EC8DC /* musicSelectorApp.swift in Sources */,
+				CDA04C1F2BDB892F00E5E9EF /* MusicWithFile.swift in Sources */,
+				CD23887B2BDA1FBA00CB320A /* MusicSources.swift in Sources */,
+				CDF9A0DE2BD68105001EC8DC /* rangeSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

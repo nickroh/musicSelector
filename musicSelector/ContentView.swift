@@ -1,21 +1,24 @@
-//
-//  ContentView.swift
-//  musicSelector
-//
-//  Created by Geonho Roh on 4/22/24.
-//
-
+import AVFoundation
 import SwiftUI
 
 struct ContentView: View {
+    @State var showMusic = false
+    
     var body: some View {
+        
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Button {
+                showMusic.toggle()
+            } label: {
+                Text("music")
+            }
+
+        }
+        .fullScreenCover(isPresented: $showMusic) {
+            SelectMusic()
         }
         .padding()
+        
     }
 }
 
